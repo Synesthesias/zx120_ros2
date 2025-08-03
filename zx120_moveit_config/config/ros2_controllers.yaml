@@ -20,6 +20,7 @@ upper_arm_controller:
       - bucket_end_joint
     command_interfaces:
       - position
+      # - velocity # not implemented in the current sim
     state_interfaces:
       - position
       # - velocity
